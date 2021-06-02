@@ -3,7 +3,8 @@
     <img [src]="dataEntrante?.img" [routerLink] = "['/', 'info', dataEntrante?.img, dataEntrante?.title]" class="image" alt="">
     <div class="wrapper-text">
 
- 
+        <div class="titulo">{{ dataEntrante?.title }} </div>
+        <div class="contenido"> {{ dataEntrante?.contenido }}</div>
         <button>comprar</button><br>
         <button>trailer</button>
     </div>
