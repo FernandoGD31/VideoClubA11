@@ -1,12 +1,35 @@
-<header>
-    <img class="logo"  src="assets/img/logo.png" alt="logo"> 
-    <nav>
-        <ul class="nav_links">
-            <li><a href="#">Pagina1</a></li>
-            <li><a href="#">Pagina2</a></li>
-            <li><a href="#">Pagina3</a></li>
-        </ul>        
-    </nav>
-    <a href="#" class="cta"><button>Contacto</button></a>
-
-</header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" [routerLink]="['home']"><img src="../../assets/img/logo.png" width="50px" height="50px">VideoClub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link "  routerLinkActive="active"  aria-current="page" [routerLink]="['home']"><img src="../../assets/img/nav/home.png" width="20px" height="20px">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Servicios
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" [routerLink]="['precios']"><img src="../../../assets/img/nav/precios.png" width="20px" height="20px">Precios</a></li>
+              <li><a class="dropdown-item" [routerLink]="['peliculas']"><img src="../../assets/img/nav/cinema.png" width="20px" height="20px">Peliculas</a></li>
+              
+              
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " routerLinkActive="active" aria-current="page" [routerLink]="['contacto']"><img src="../../../assets/img/nav/contact.png" width="20px" height="20px">Contactanos</a>
+          </li>
+           
+          <li class="nav-item">
+            <a class="nav-link " routerLinkActive="active" aria-current="page" [routerLink]="['login']"><img src="../../../assets/img/nav/login.png" width="20px" height="20px">Iniciar Sesion</a>
+          </li>
+         
+         
+        </ul>
+      </div>
+    </div>
+  </nav>
