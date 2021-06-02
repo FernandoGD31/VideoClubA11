@@ -1,16 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 .card{
-    margin: 3%;
+    display: inline-block;
+    margin: 5% 30% 0 ;
     font-family: 'Roboto', sans-serif;
-    padding: 1%;
-    background-color: #000045;
-    width: fit-content;
+    padding: 0%;
+    background-color:transparent;
     height: auto;
 }
+
+.card2{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    padding: 5%;
+    background-color: transparent;
+    color: thistle;
+}
+
+.contenedor{
+    display: inline-block;
+    width: 40%;
+}
+
+.card2 .titulo{
+    font-size: 25px;
+}
+
+
 .image{
-    height: 350px;
-    cursor: pointer;
+    height: 500px;
+  
 }
 .card .wrapper-text{
     margin-top: 8%;

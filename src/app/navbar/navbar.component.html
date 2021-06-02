@@ -1,11 +1,11 @@
 <header>
-  <img class="logo"  src="assets/img/logo.png" alt="logo"> 
+  <img class="logo"  [routerLink]="['/']" src="assets/img/logo.png" alt="logo"> 
   <nav>
       <ul class="nav_links">
         
-          <li><a href="#">Inicio</a></li>
+          <li><a href="/">Inicio</a></li>
           <li><a [routerLink]="['/contacto']">Contactanos</a></li>
-          <li><a [routerLink]="['home']"><i class="fas fa-shopping-cart"></i></a></li>
+          <li><a [routerLink]="['/']"><i class="fas fa-shopping-cart"></i></a></li>
       </ul>        
   </nav>
   <a [routerLink]="['/login']" class="cta"><button>Iniciar Session</button></a>
