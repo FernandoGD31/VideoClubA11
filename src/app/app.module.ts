@@ -13,9 +13,7 @@ import { ContactoComponent } from './components/contacto/contacto.component';
 import { LoginComponent } from './components/login/login.component';
 import { FooterComponent } from './footer/footer.component';
 
-import { AngularFireModule } from '@angular/fire';
-import { environment } from '../environments/environment';
-import {AngularFireAuthModule} from '@angular/fire/auth';
+
 import {FormsModule} from '@angular/forms'
 
 @NgModule({
@@ -33,8 +31,6 @@ import {FormsModule} from '@angular/forms'
     BrowserModule,
     RouterModule,
     AppRoutingModule,
-    AngularFireModule.initializeApp(environment.firebaseConfig),
-    AngularFireModule,
     FormsModule
     
   ],
