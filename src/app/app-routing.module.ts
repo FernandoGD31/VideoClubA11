@@ -14,7 +14,7 @@ const routes: Routes = [
         component: HomeComponent         
     },
     {
-        path:'info/:img/:titulo/:desc',
+        path:'info/:img/:titulo',
         component: InfoPeliculaComponent         
     },
 
