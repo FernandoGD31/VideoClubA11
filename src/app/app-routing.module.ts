@@ -9,7 +9,7 @@ import { InfoPeliculaComponent } from './info-pelicula/info-pelicula.component';
 
 const routes: Routes = [
     {
-        path:'home',
+        path:'',
         component: HomeComponent         
     },
     {
