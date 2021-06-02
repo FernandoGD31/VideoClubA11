@@ -1,0 +1,301 @@
+/**********************************/
+/********* Form Input CSS *********/
+/**********************************/
+.form-control,
+.custom-select {
+    width: 100%;
+    height: 35px;
+    padding: 0 15px;
+    color: #666666;
+    border: 1px solid #3F69AA;
+    border-radius: 0;
+    margin-bottom: 15px
+}
+
+.custom-radio,
+.custom-checkbox {
+    margin-bottom: 15px;
+}
+
+.custom-radio .custom-control-label::before,
+.custom-checkbox .custom-control-label::before {
+    border-color: #3F69AA;
+    border-radius: 0;
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-label::before,
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    color: #ffffff;
+    background: #3F69AA;
+}
+
+button.btn {
+    color: #ffffff;
+    background: #3F69AA;
+    border-radius: 0;
+}
+
+
+
+
+
+
+/**********************************/
+/************ Cart CSS ************/
+/**********************************/
+.cart-page {
+    position: relative;
+    padding: 60px 0;
+}
+
+.cart-page .table {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.cart-page .table .thead-dark th {
+    text-align: center;
+    background: #3F69AA;
+    border-color: #3F69AA;
+    vertical-align: middle;
+}
+
+.cart-page .table td {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.cart-page .table img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.cart-page .table .qty {
+    display: inline-block;
+}
+
+.cart-page .table button {
+    height: 30px;
+    padding: 2px 10px;
+    text-align: center;
+    color: #ffffff;
+    background: #3F69AA;
+    border: none;
+}
+
+.cart-page .table input {
+    width: 60px;
+    height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: rgba(63, 105, 170, .5);
+    border: none;
+}
+
+.cart-page .coupon {
+    position: relative;
+    width: 100%;
+}
+
+.cart-page .coupon input {
+    width: calc(100% - 135px);
+    height: 50px;
+    padding: 0 15px;
+    color: #666666;
+    background: #ffffff;
+    border: 1px solid #3F69AA;
+    margin-right: 10px;
+}
+
+.cart-page .coupon button {
+    width: 120px;
+    height: 50px;
+    padding: 2px 10px;
+    text-align: center;
+    color: #ffffff;
+    background: #3F69AA;
+    border: none;
+}
+
+.cart-page .cart-summary {
+    position: relative;
+    width: 100%;
+}
+
+.cart-page .cart-summary .cart-content {
+    padding: 30px;
+    background: #3F69AA;
+}
+
+.cart-page .cart-summary .cart-content h3 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.cart-page .cart-summary .cart-content p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cart-page .cart-summary .cart-content p span,
+.cart-page .cart-summary .cart-content h4 span {
+    float: right;
+}
+
+.cart-page .cart-summary .cart-content h4 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 12px;
+    border-top: 1px solid #ffffff;
+    margin: 0;
+}
+
+.cart-page .cart-summary .cart-btn button {
+    margin-top: 15px;
+    width: calc(50% - 15px);
+    height: 50px;
+    padding: 2px 10px;
+    text-align: center;
+    color: #ffffff;
+    background: #3F69AA;
+    border: none;
+}
+
+.cart-page .cart-summary .cart-btn button:first-child {
+    margin-right: 25px;
+    color: #3F69AA;
+    background: #ffffff;
+    border: 1px solid #3F69AA;
+}
+
+
+/**********************************/
+/********** Contact CSS ***********/
+/**********************************/
+.contact {
+    position: relative;
+    padding: 60px 0;
+}
+
+.contact .contact-info .section-header h3,
+.contact .contact-info .section-header p {
+    text-align: left;
+}
+
+.contact .contact-info .section-header p {
+    font-weight: 400;
+}
+
+.contact .contact-info .section-header h3::after {
+    left: 0;
+}
+
+.contact .contact-info img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact .contact-info h4 {
+    margin-bottom: 10px;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact .contact-info h4 i {
+    color: #3F69AA;
+    margin-right: 5px;
+}
+
+.contact .social {
+    position: relative;
+    width: 100%;
+}
+
+.contact .social a {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+    width: 40px;
+    height: 40px;
+    padding: 3px 0;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #3F69AA;
+}
+
+.contact .social a i {
+    color: #3F69AA;
+}
+
+.contact .social a:hover {
+    background: #3F69AA;
+}
+
+.contact .social a:hover i {
+    color: #ffffff;
+}
+
+.contact .form {
+    color: #666666;
+}
+
+@media (max-width: 767.98px) {
+    .contact .form {
+        margin-bottom: 30px;
+    }
+}
+
+.contact .form input,
+.contact .form textarea {
+    color: #666666;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    border: 1px solid #3F69AA;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.contact .form input:focus,
+.contact .form textarea:focus {
+    box-shadow: none;
+}
+
+.contact .form button[type="submit"] {
+    padding: 6px 25px 7px 25px;
+    color: #3F69AA;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 0;
+    border: 1px solid #3F69AA;
+    background: #ffffff;
+}
+
+.contact .form button[type="submit"]:hover {
+    background: #3F69AA;
+    color: #FFFFFF;
+}
+
+
+
+/**********************************/
+/********** Galeria CSS ***********/
+/**********************************/
+
+
+.thumbnail {margin-bottom:6px;
+width: 250px;
+}
+
+.carousel-control.left,.carousel-control.right{
+  background-image:none;
+  margin-top:10%;
+  width:5%;
+}

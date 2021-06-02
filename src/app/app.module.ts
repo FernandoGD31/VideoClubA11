@@ -12,9 +12,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { LoginComponent } from './components/login/login.component';
 import { FooterComponent } from './footer/footer.component';
-
-
-import {FormsModule} from '@angular/forms'
+import { CarritoComponent } from './carrito/carrito.component';
 
 @NgModule({
   declarations: [
@@ -25,13 +23,13 @@ import {FormsModule} from '@angular/forms'
     HomeComponent,
     ContactoComponent,
     LoginComponent,
-    FooterComponent
+    FooterComponent,
+    CarritoComponent
   ],
   imports: [
     BrowserModule,
     RouterModule,
-    AppRoutingModule,
-    FormsModule
+    AppRoutingModule
     
   ],
   providers: [],
