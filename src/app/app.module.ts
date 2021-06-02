@@ -9,6 +9,9 @@ import { HomeComponent } from './home/home.component';
 
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
+import { ContactoComponent } from './components/contacto/contacto.component';
+import { LoginComponent } from './components/login/login.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { AppRoutingModule } from './app-routing.module';
     NavbarComponent,
     CardComponent,
     InfoPeliculaComponent,
-    HomeComponent
+    HomeComponent,
+    ContactoComponent,
+    LoginComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
