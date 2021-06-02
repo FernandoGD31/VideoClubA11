@@ -66,7 +66,7 @@
 }
 .pie .icons i:hover{
     cursor: pointer;
-    color: #ec407a;
+    color: rgba(0, 136,169,1);;
     background-color: rgb(29, 29, 29);
 }
 
@@ -94,22 +94,22 @@
 
 .btn-peli{
     background-color:transparent;
-    color: #ec407a;
+    color: rgba(0, 136,169,1);;
     
 }
 
 .btn-peli:hover{
     margin-left: auto;
     margin-right: auto;
-    background-color:#ec407a;
+    background-color:rgba(0, 136,169,1);;
     color: #fff;
 }
 .color{
-    color:#ec407a;
+    color:rgba(0, 136,169,1);;
 }
 
 .pie .titulopie .titulo{
-    color: #ec407a;
+    color: rgba(0, 136,169,1);;
     font-size: 40px;
 }
 
@@ -117,7 +117,7 @@
     background-color: transparent;
     text-align: center;
     font-size: 50px;
-    color: #ec407a;
+    color: rgba(0, 136,169,1);;
 }
 
 .pagina label{
@@ -136,7 +136,7 @@
        
 }
 .pagina a:hover{
-    color: #ec407a;
+    color: rgba(0, 136,169,1);;
 
 }
 .pagina i{
@@ -144,7 +144,7 @@
     font-size: 40px;
 }
 .pagina i:hover{
-    color: #ec407a;
+    color: rgba(0, 136,169,1);;
 }
 .pagina i:active{
     color: #000090;
@@ -155,7 +155,7 @@
 }
 
 .generos select{
-    color: #ec407a;
+    color: rgba(0, 136,169,1);;
     background-color: #000030;
     width: 200px;
     height: 30px;
