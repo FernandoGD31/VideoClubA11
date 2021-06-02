@@ -14,9 +14,10 @@ const routes: Routes = [
         component: HomeComponent         
     },
     {
-        path:'info/:img/:titulo',
+        path:'info/:img/:titulo/:desc',
         component: InfoPeliculaComponent         
     },
+
 
     {
         path:'contacto', component: ContactoComponent

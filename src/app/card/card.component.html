@@ -1,12 +1,13 @@
 <div class="card" >
 
-    <img [src]="dataEntrante?.img" [routerLink] = "['/', 'info', dataEntrante?.img, dataEntrante?.title]" class="image" alt="">
+    <img [src]="dataEntrante?.img" [routerLink] = "['/', 'info', dataEntrante?.img, dataEntrante?.title, dataEntrante?.desc ]" class="image" alt="">
     <div class="wrapper-text">
 
         <div class="titulo">{{ dataEntrante?.title }} </div>
-        <div class="contenido"> {{ dataEntrante?.contenido }}</div>
-        <button>comprar</button><br>
-        <button>trailer</button>
+        <div class="contenido">Genero: {{ dataEntrante?.genero }}</div>
+        <div class="contenido">Precio: {{ dataEntrante?.precio }}</div>
+        <button>Comprar</button><br>
+        <button><a href="#"></a>trailer</button>
     </div>
     
 </div>

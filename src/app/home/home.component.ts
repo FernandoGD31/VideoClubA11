@@ -14,103 +14,143 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.listadeCaratulas = [
       {
-        title:'Card1',
-        contenido:'cont1',
+        title:'GLASS',
+        genero:'Suspenso',
+        precio:'$50.00',
+        desc:'David Dunn busca mantenerse un paso por delante de la ley mientras imparte justicia en las calles de Filadelfia. Sus talentos especiales pronto lo colocan en un curso de colisión con la Bestia, un loco psicótico que tiene una fuerza sobrehumana y 23 personalidades distintas.',
         img:'assets/img/caratulas/1.jpg'
       },
       {
-        title:'Card2',
-        contenido:'cont2',
+        title:'EL VICIO DEL PODER',
+        genero:'Drama',
+        precio:'$50.00',
+        desc:'David Dunn busca mantenerse un paso por delante de la ley mientras imparte justicia en las calles de Filadelfia. Sus talentos especiales pronto lo colocan en un curso de colisión con la Bestia, un loco psicótico que tiene una fuerza sobrehumana y 23 personalidades distintas.',
         img:'assets/img/caratulas/2.jpg'
       },
       {
-        title:'Card3',
-        contenido:'cont1',
+        title:'UNO MAS DE LA FAMILIA',
+        genero:'Drama',
+        precio:'$50.00',
+        desc:'David Dunn busca mantenerse un paso por delante de la ley mientras imparte justicia en las calles de Filadelfia. Sus talentos especiales pronto lo colocan en un curso de colisión con la Bestia, un loco psicótico que tiene una fuerza sobrehumana y 23 personalidades distintas.',
         img:'assets/img/caratulas/3.jpg'
       },
       {
-        title:'Card4',
-        contenido:'cont4',
+        title:'LOS LUNNIS',
+        genero:'Suspenso',
+        precio:'$50.00',
+        desc:'David Dunn busca mantenerse un paso por delante de la ley mientras imparte justicia en las calles de Filadelfia. Sus talentos especiales pronto lo colocan en un curso de colisión con la Bestia, un loco psicótico que tiene una fuerza sobrehumana y 23 personalidades distintas.',
         img:'assets/img/caratulas/4.jpeg'
       },
       {
-        title:'Card5',
-        contenido:'cont5',
+        title:'DIOS NO ESTA MUERTO',
+        genero:'Drama',
+        precio:'$50.00',
+        desc:'David Dunn busca mantenerse un paso por delante de la ley mientras imparte justicia en las calles de Filadelfia. Sus talentos especiales pronto lo colocan en un curso de colisión con la Bestia, un loco psicótico que tiene una fuerza sobrehumana y 23 personalidades distintas.',
         img:'assets/img/caratulas/5.jpg'
       },
       {
-        title:'Card5',
-        contenido:'cont5',
+        title:'CREED II',
+        genero:'Acción',
+        precio:'$50.00',
+        desc:'David Dunn busca mantenerse un paso por delante de la ley mientras imparte justicia en las calles de Filadelfia. Sus talentos especiales pronto lo colocan en un curso de colisión con la Bestia, un loco psicótico que tiene una fuerza sobrehumana y 23 personalidades distintas.',
         img:'assets/img/caratulas/6.jpg'
       },
       {
-        title:'Card6',
-        contenido:'cont6',
+        title:'GREEN BOOK',
+        genero:'Drama',
+        precio:'$50.00',
+        desc:'David Dunn busca mantenerse un paso por delante de la ley mientras imparte justicia en las calles de Filadelfia. Sus talentos especiales pronto lo colocan en un curso de colisión con la Bestia, un loco psicótico que tiene una fuerza sobrehumana y 23 personalidades distintas.',
         img:'assets/img/caratulas/7.jpg'
       },
       {
-        title:'Card6',
-        contenido:'cont6',
+        title:'CardTHE PRODIGY6',
+        genero:'Terror',
+        precio:'$50.00',
+        desc:'David Dunn busca mantenerse un paso por delante de la ley mientras imparte justicia en las calles de Filadelfia. Sus talentos especiales pronto lo colocan en un curso de colisión con la Bestia, un loco psicótico que tiene una fuerza sobrehumana y 23 personalidades distintas.',
         img:'assets/img/caratulas/8.jpg'
       },
       {
-        title:'Card6',
-        contenido:'cont6',
+        title:'MARIA REINA DE ESCOCIA',
+        genero:'Drama',
+        precio:'$50.00',
+        desc:'David Dunn busca mantenerse un paso por delante de la ley mientras imparte justicia en las calles de Filadelfia. Sus talentos especiales pronto lo colocan en un curso de colisión con la Bestia, un loco psicótico que tiene una fuerza sobrehumana y 23 personalidades distintas.',
         img:'assets/img/caratulas/9.jpg'
       },
       {
-        title:'Card6',
-        contenido:'cont6',
+        title:'LA LEGO PELICULA 2',
+        genero:'FAMILAR',
+        precio:'$50.00',
+        desc:'David Dunn busca mantenerse un paso por delante de la ley mientras imparte justicia en las calles de Filadelfia. Sus talentos especiales pronto lo colocan en un curso de colisión con la Bestia, un loco psicótico que tiene una fuerza sobrehumana y 23 personalidades distintas.',
         img:'assets/img/caratulas/10.jpg'
       },
       {
-        title:'Card6',
-        contenido:'cont6',
+        title:'ALITA',
+        genero:'Acción',
+        precio:'$50.00',
+        desc:'David Dunn busca mantenerse un paso por delante de la ley mientras imparte justicia en las calles de Filadelfia. Sus talentos especiales pronto lo colocan en un curso de colisión con la Bestia, un loco psicótico que tiene una fuerza sobrehumana y 23 personalidades distintas.',
         img:'assets/img/caratulas/11.jpg'
       },
       {
-        title:'Card6',
-        contenido:'cont6',
+        title:'FELIZ DIA DE TU MUERTE 2',
+        genero:'Terror',
+        precio:'$50.00',
+        desc:'David Dunn busca mantenerse un paso por delante de la ley mientras imparte justicia en las calles de Filadelfia. Sus talentos especiales pronto lo colocan en un curso de colisión con la Bestia, un loco psicótico que tiene una fuerza sobrehumana y 23 personalidades distintas.',
         img:'assets/img/caratulas/12.jpg'
       },
       {
-        title:'Card6',
-        contenido:'cont6',
+        title:'VIUDA NEGRA',
+        genero:'Acción',
+        precio:'$50.00',
+        desc:'David Dunn busca mantenerse un paso por delante de la ley mientras imparte justicia en las calles de Filadelfia. Sus talentos especiales pronto lo colocan en un curso de colisión con la Bestia, un loco psicótico que tiene una fuerza sobrehumana y 23 personalidades distintas.',
         img:'assets/img/caratulas/13.jpg'
       },
       {
-        title:'Card6',
-        contenido:'cont6',
+        title:'GREENLAND',
+        genero:'Suspenso',
+        precio:'$50.00',
+        desc:'David Dunn busca mantenerse un paso por delante de la ley mientras imparte justicia en las calles de Filadelfia. Sus talentos especiales pronto lo colocan en un curso de colisión con la Bestia, un loco psicótico que tiene una fuerza sobrehumana y 23 personalidades distintas.',
         img:'assets/img/caratulas/14.jpg'
       },
       {
-        title:'Card6',
-        contenido:'cont6',
+        title:'LA MALDICION',
+        genero:'Terror',
+        precio:'$50.00',
+        desc:'David Dunn busca mantenerse un paso por delante de la ley mientras imparte justicia en las calles de Filadelfia. Sus talentos especiales pronto lo colocan en un curso de colisión con la Bestia, un loco psicótico que tiene una fuerza sobrehumana y 23 personalidades distintas.',
         img:'assets/img/caratulas/15.jpg'
       },
       {
-        title:'Card6',
-        contenido:'cont6',
+        title:'JUNGLE CRUISE',
+        genero:'Acción',
+        precio:'$50.00',
+        desc:'David Dunn busca mantenerse un paso por delante de la ley mientras imparte justicia en las calles de Filadelfia. Sus talentos especiales pronto lo colocan en un curso de colisión con la Bestia, un loco psicótico que tiene una fuerza sobrehumana y 23 personalidades distintas.',
         img:'assets/img/caratulas/16.jpg'
       },
       {
-        title:'Card6',
-        contenido:'cont6',
+        title:'UN LUGAR TRANQUILO 2',
+        genero:'Terror',
+        precio:'$50.00',
+        desc:'David Dunn busca mantenerse un paso por delante de la ley mientras imparte justicia en las calles de Filadelfia. Sus talentos especiales pronto lo colocan en un curso de colisión con la Bestia, un loco psicótico que tiene una fuerza sobrehumana y 23 personalidades distintas.',
         img:'assets/img/caratulas/17.jpg'
       },
       {
-        title:'Card6',
-        contenido:'cont6',
+        title:'TOP GUN',
+        genero:'Acción',
+        precio:'$50.00',
+        desc:'David Dunn busca mantenerse un paso por delante de la ley mientras imparte justicia en las calles de Filadelfia. Sus talentos especiales pronto lo colocan en un curso de colisión con la Bestia, un loco psicótico que tiene una fuerza sobrehumana y 23 personalidades distintas.',
         img:'assets/img/caratulas/18.jpg'
       },
       {
-        title:'Card6',
-        contenido:'cont6',
+        title:'JOJO RABBIT',
+        genero:'Comedia',
+        precio:'$50.00',
+        desc:'David Dunn busca mantenerse un paso por delante de la ley mientras imparte justicia en las calles de Filadelfia. Sus talentos especiales pronto lo colocan en un curso de colisión con la Bestia, un loco psicótico que tiene una fuerza sobrehumana y 23 personalidades distintas.',
         img:'assets/img/caratulas/19.jpg'
       },
       {
-        title:'Card6',
-        contenido:'cont6',
+        title:'EL FARO',
+        genero:'Suspenso',
+        precio:'$50.00',
+        desc:'David Dunn busca mantenerse un paso por delante de la ley mientras imparte justicia en las calles de Filadelfia. Sus talentos especiales pronto lo colocan en un curso de colisión con la Bestia, un loco psicótico que tiene una fuerza sobrehumana y 23 personalidades distintas.',
         img:'assets/img/caratulas/20.jpg'
       },
       
