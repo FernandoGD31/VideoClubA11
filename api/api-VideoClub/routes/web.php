@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::post('/RegistrarContenido', 'ApiController@RegistrarContenido');
+Route::post('/EditarContenido/{id}', 'ApiController@EditarContenido');
+Route::get('/EliminarContenido/{id}', 'ApiController@EliminarContenido');
+Route::get('/MostrarContenido', 'ApiController@MostrarContenido');

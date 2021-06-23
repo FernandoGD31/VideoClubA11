@@ -86,7 +86,7 @@
             </div>
         @endif
         @php
-            $res = DB::select('select * from pelicula', [1]);
+            $res = DB::select('select * from contenido', [1]);
         @endphp
 
         <ul>
