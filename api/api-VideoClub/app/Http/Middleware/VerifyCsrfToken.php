@@ -15,6 +15,9 @@ class VerifyCsrfToken extends Middleware
         '/RegistrarContenido',
         '/EditarContenido/*',
         '/EliminarContenido/*',
-        '/MostrarContenido'
+        '/MostrarContenido',
+        '/MostrarContenidoId/*',
+        '/MostrarPeliculas',
+        '/MostrarSeries'
     ];
 }

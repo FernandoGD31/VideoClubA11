@@ -140,12 +140,44 @@ class ApiController extends Controller
         return "ERROR";
     }
 
+    //   /MostrarContenido/{nombreContenido}
 
+    public function MostrarContenidoId($id)
+    {
+        try {
+            $data = DB::select("SELECT * FROM contenido where id = {$id}");
+            return $data;
+        } catch (\Throwable $th) {
+            return "ERROR AL MOSTRAR ---->" . $th;
+        }
+        return "ERROR";
+    }
 
+    /// MostrarPeliculas
 
+    public function MostrarPeliculas()
+    {
+        try {
+            $data = DB::select("SELECT * FROM contenido where temporadas IS NULL");
+            return $data;
+        } catch (\Throwable $th) {
+            return "ERROR AL MOSTRAR ---->" . $th;
+        }
+        return "ERROR";
+    }
 
+    /// MostrarPeliculas
 
-
+    public function MostrarSeries()
+    {
+        try {
+            $data = DB::select("SELECT * FROM contenido where temporadas > 0");
+            return $data;
+        } catch (\Throwable $th) {
+            return "ERROR AL MOSTRAR ---->" . $th;
+        }
+        return "ERROR";
+    }
 
 
 
